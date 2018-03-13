@@ -1,0 +1,90 @@
+body {
+    direction: rtl;
+    background-image: url('../images/pexels-photo-399161.jpeg');
+}
+div#container{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+div#background {
+    font-family:Calibri;
+    margin: 10px;
+    padding:5px;
+}
+h1 {
+    text-align: center;
+    font-size: 45pt;
+    padding-right:230px;
+    color:grey;
+    font-family: Calibri;
+
+}
+h2 {
+    font-size: 20pt;
+    color:grey;
+    margin:0;
+    
+}
+h2:first-letter{
+    font-size: 24pt;
+    color:mediumvioletred;
+}
+
+.a {
+    margin-right: 230px;
+    display:grid;
+    padding:10px;
+}
+.b {
+    margin-right: 550px;
+    display: grid;
+    position:relative;
+    bottom: 290px;
+}
+div#1 {
+    display:inline-block;
+}
+#down {
+    padding-top:50px;
+}
+#social {
+    margin-right: 700px;
+    position:relative;
+    bottom:50px;
+}
+h2#so {
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    -webkit-transition: all 4s ease;
+    -moz-transition: all 4s ease;
+    -ms-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    transition: all 4s ease;
+}
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-facebook {
+        background: #ffffff;
+        color: pink;
+    }
+
+
+
+.fa-google {
+    background: #ffffff;
+    color: pink;
+}
